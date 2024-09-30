@@ -1,0 +1,6 @@
+n1 = input('Digite algo: ')
+print(f'É minusculo?  {n1.islower()}')
+print(f'É alpha? {n1.isalpha()}')
+print(f'Ésta em maiusculo? {n1.isupper()}')
+print(f'É decimal? {n1.isdecimal()}')
+print(f'É numero? {n1.isnumeric()}')
